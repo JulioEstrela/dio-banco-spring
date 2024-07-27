@@ -1,0 +1,1 @@
+web: java -jar build/libs/dio-banco-spring-1.0-SNAPSHOT.jar
