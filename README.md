@@ -1,5 +1,5 @@
 # RESTful API - Conta Bancária | DIO
-SpringBoot3 | MySql | Railway
+Spring Boot 3 | MySql | Railway
 
 ## Diagrama de Classes UML:
 ```mermaid
@@ -42,10 +42,14 @@ classDiagram
 
 ## Perfis de usuário
 Dois perfis de usuário:
-- `application-dev.yaml`
-- `application-prod.yaml`
+- `application-dev.yaml`:  
+  Banco de Dados em memória (H2 Database)
+- `application-prd.yaml`:  
+  Banco de Dados no docker do Railway (MySql)
 
 ## Deploy
-- Hospedado com Railway
-- Banco de Dados MySql
-- Documentado com OpenApi (Swagger)
+- Hospedado com Railway: (removido 💸)
+  ![image](https://github.com/user-attachments/assets/1ef95ac3-d9c4-4297-81cb-6f45d3a5aa5e)
+- Documentado com OpenApi (Swagger):
+  ![image](https://github.com/user-attachments/assets/8871bb76-23c5-4279-bf61-68892cae61e4)
+
